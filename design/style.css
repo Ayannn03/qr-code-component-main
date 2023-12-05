@@ -1,0 +1,78 @@
+body {
+    background-color: #CFD8DC;
+  }
+  
+  .gcash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+
+  }
+  
+  .gcash img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .bgcolor {
+    background-color: white;
+    border-radius: 15px;
+    height: 500px;
+    width: 330px;
+    padding-top: 2px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+.all{
+  display: flex;
+  justify-content: center;
+  
+}
+  
+  .text {
+    text-align: center;
+   
+  }
+  .skills{
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+  .Scan {
+    padding-bottom: 20px;
+    color: (212, 45%, 89%);
+  }
+  .attribution {
+    text-align: center;
+    
+  }
+
+  @media screen and (min-width:375px){
+    .all{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bgcolor{
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+  
+  }
+ 
+  @media screen and (min-width:1440px){
+    .all{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bgcolor{
+      margin-top: 300px;
+      margin-bottom: 50px;
+    }
+  
+  }
+ 
